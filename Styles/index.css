@@ -1,11 +1,78 @@
+:root{
+    --color1 : #19345E;
+    --color2 : #E7EBFC;
+}
+
+h1,h2,h3,h4,h5{
+    color: var(--color1) !important;
+}
 .nav-style{
     margin-left: 5rem;
+}
+.headline h1{
+    font-size: 64px;
+    line-height: 72px;
+}
+.gambar img{
+    width: 486px;
+    height: 487px;
+}
+.section-kedua{
+    padding: 131px 163px;
+}
+.section-ketiga,.section-keempat .section-keenam{
+    padding: 115px 165px;
+}
+.section-ketiga article .kolom2{
+    padding-right: 0;
+}
+.gbr-sec4{
+    width: 380px;
+    height: 450px;
+}
+.proccess ul li{
+    position: relative;
+}
+.proccess{
+    margin-top: 100px;
+}
+.proccess ul li::before{
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--color1);
+    top: -50%;
+}
+.proccess ul li::after{
+    content: '';
+    position: absolute;
+    width: 70%;
+    border-top: 2px dashed var(--color1);
+    top: -40%;
+    left: 20%;
+}
+.proccess ul li:nth-last-child(1)::after {
+    visibility: hidden;
+  }
+.logo-3{
+    background-color: var(--color2);
+    width: 72px;
+    height: 72px;
+}
+li{
+    list-style: none;
+}
+.logo-partners img{
+    width: auto;
+    height: 25px;
 }
 footer{
     width: 100vw;
     height: 450px;
     background-color: #19345E;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     color:  white ;
     font-size: 16px;
@@ -21,5 +88,49 @@ a{
     }
     footer{
         height: 600px;
+    }
+    .proccess ul {
+        margin-left: 30px;
+    }
+    .proccess ul li::before{
+        content: '';
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background-color: var(--color1);
+        left: -3%;
+        top: 10%;
+    }
+    .proccess ul li::after{
+        content: '';
+        position: absolute;
+        border-left: 2px dashed var(--color1);
+        width: 2px;
+        height: 110%;
+        top: 40%;
+        left: -2%;
+    }
+    .section-keempat article .kolom2{
+        padding-right: 30%;
+    }
+}
+@media only screen and (max-width:768px){
+    .proccess ul li::after{
+        left: -1%;
+    }
+    .section-keenam, .section-kedua, .section-ketiga{
+        padding: 115px 0px;
+    }
+    .section-keempat article{
+        /* width: 100vw;
+        padding: 115px 100px; */
+    }
+    .gbr-sec4{
+        width: 350px;
+        height: 350px;
+        padding-right: 30px;
+        align-self: center;
+        margin-top: 30px;
     }
 }
