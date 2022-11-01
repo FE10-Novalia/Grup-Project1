@@ -1,0 +1,185 @@
+:root{
+    --color1 : #19345E;
+    --color2 : #E7EBFC;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--color1) !important;
+}
+.nav-style{
+    margin-left: 5rem;
+}
+.section-satu{
+    background-color: var(--color2);
+    padding: 6rem;
+}
+.section-satu .content h1{
+    font-size: 64px;
+}
+.ceo-info{
+    width: 75%;
+}
+.ceo-info img{
+    width: 90px;
+}
+.section-kedua{
+    height: auto;
+    background-color: var(--color1);
+    color: white !important;
+}
+.counter{
+    display: flex;
+    justify-content: space-around;
+}
+.count-info{
+    border-right: 2px solid white;
+}
+
+.section-ketiga{
+    height: auto;
+}
+.section-ketiga .content .gambar{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(25, 52, 94, 0.7);
+    background-image: url('../Assets Group Project HTML-CSS/stock_photo.jpg');
+    background-blend-mode: soft-light;
+    background-size: cover;
+}
+.section-ketiga .content .text{
+    padding-left: 150px;
+}
+.section-ketiga .content .text h1{
+    font-size: 52px;
+}
+.section-ketiga .content .text p{
+    font-size: 20px;
+}
+.icon-play{
+    width: 48px;
+    height: 48px;
+    border: 2px solid #19345E;
+}
+.icon-play img{
+    width: 40px;
+}
+.section-keempat .content{
+    height: auto;
+    padding: 127px 120px;
+}
+.logo-sec4{
+    width: 37px;
+}
+ul li{
+    list-style: none;
+}
+.section-kelima .content{
+    height: auto;
+    padding: 127px 120px;
+}
+.text-sec5{
+    display: flex;
+    justify-content: space-between;
+}
+.text-sec5 h1{
+    font-size: 50px;
+    padding-right: 150px;
+}
+.backward, .forward{
+    width: 48px;
+    height: 48px;
+    background-color: var(--color2);
+}
+.backward img, .forward img{
+    width: 40px;
+}
+.photo{
+    /* width: 350px; */
+    height: 380px;
+    background-color: var(--color2);
+}
+.gbr-sec6{
+    width: 140px;
+}
+.section-keenam, .section-ketujuh{
+    padding: 115px 165px;
+}
+.logo-partners img{
+    width: auto;
+    height: 25px;
+}
+footer{
+    width: 100vw;
+    height: 450px;
+    background-color: #19345E;
+    bottom: 0;
+    color:  white ;
+    font-size: 16px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 992px){
+    .footer-link{
+        justify-content: center;
+    }
+    footer{
+        height: 600px;
+    }
+    .counter{
+        flex-direction: column;
+    }
+    .count-info{
+        border-right: 0px;
+        padding-top: 20px;
+        border-bottom: 2px solid white;
+    }
+    .section-ketiga .content .text{
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .text-sec5 h1{
+        font-size: 30px;
+        padding-right: 0px;
+    }
+    .section-satu .content h1{
+        font-size: 40px;
+    }
+    .section-ketujuh{
+        padding: 115px 0px;
+    }
+    .section-ketiga .content .text h1{
+        font-size: 40px;
+    }
+    .ceo-info{
+        width: 100%;
+    }
+    .text-sec5{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .text-sec5 h1{
+        padding-right: 30px;
+        margin-bottom: 20px;
+    }
+    .left-right{
+        justify-content: end;
+    }
+    .photo{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .gbr-sec4{
+        width: 300px;
+    }
+    .text-sec5 h1{
+        font-size: 30px;
+        padding-right: 30px;
+        width: 80vw;
+    }
+}
