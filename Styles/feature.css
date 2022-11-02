@@ -11,9 +11,8 @@ h1,h2,h3,h4,h5,h6{
 }
 .section-satu{
     background-color: var(--color2);
-    padding: 6rem;
 }
-.section-satu .content h1{
+.text-sec1{
     font-size: 64px;
 }
 .ceo-info{
@@ -29,25 +28,21 @@ h1,h2,h3,h4,h5,h6{
 }
 .counter{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-.count-info{
-    border-right: 2px solid white;
+.count-info, .count-info-4{
+    padding: 0 30px;
 }
-
 .section-ketiga{
     height: auto;
 }
-.section-ketiga .content .gambar{
+.gbr-sec3 .gambar{
     width: 400px;
     height: 500px;
     background-color: rgba(25, 52, 94, 0.7);
     background-image: url('../Assets Group Project HTML-CSS/stock_photo.jpg');
     background-blend-mode: soft-light;
     background-size: cover;
-}
-.section-ketiga .content .text{
-    padding-left: 150px;
 }
 .section-ketiga .content .text h1{
     font-size: 52px;
@@ -63,10 +58,6 @@ h1,h2,h3,h4,h5,h6{
 .icon-play img{
     width: 40px;
 }
-.section-keempat .content{
-    height: auto;
-    padding: 127px 120px;
-}
 .logo-sec4{
     width: 37px;
 }
@@ -75,7 +66,6 @@ ul li{
 }
 .section-kelima .content{
     height: auto;
-    padding: 127px 120px;
 }
 .text-sec5{
     display: flex;
@@ -83,7 +73,6 @@ ul li{
 }
 .text-sec5 h1{
     font-size: 50px;
-    padding-right: 150px;
 }
 .backward, .forward{
     width: 48px;
@@ -94,15 +83,12 @@ ul li{
     width: 40px;
 }
 .photo{
-    /* width: 350px; */
+    width: 320px;
     height: 380px;
     background-color: var(--color2);
 }
 .gbr-sec6{
     width: 140px;
-}
-.section-keenam, .section-ketujuh{
-    padding: 115px 165px;
 }
 .logo-partners img{
     width: auto;
@@ -128,28 +114,24 @@ a{
     footer{
         height: 600px;
     }
+    .text-sec1{
+        font-size: 38px;
+    }
     .counter{
         flex-direction: column;
     }
     .count-info{
-        border-right: 0px;
+        border-right: none;
         padding-top: 20px;
-        border-bottom: 2px solid white;
     }
-    .section-ketiga .content .text{
-        padding-left: 0px;
+    .photo{
+        width: 280px;
     }
 }
 @media only screen and (max-width: 768px){
     .text-sec5 h1{
         font-size: 30px;
         padding-right: 0px;
-    }
-    .section-satu .content h1{
-        font-size: 40px;
-    }
-    .section-ketujuh{
-        padding: 115px 0px;
     }
     .section-ketiga .content .text h1{
         font-size: 40px;
@@ -162,7 +144,6 @@ a{
         justify-content: space-around;
     }
     .text-sec5 h1{
-        padding-right: 30px;
         margin-bottom: 20px;
     }
     .left-right{
@@ -177,9 +158,7 @@ a{
     .gbr-sec4{
         width: 300px;
     }
-    .text-sec5 h1{
-        font-size: 30px;
-        padding-right: 30px;
-        width: 80vw;
+    .gbr-sec6{
+        align-self: center;
     }
 }
