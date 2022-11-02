@@ -36,6 +36,14 @@ font-size: 24px;
 line-height: 34px;
 }
 
+.btn-text {
+    background-color: #19345E;
+    color: white;
+    height: 56px;
+    width: 262px;
+    align-items: center;
+}
+
 .explore {
     background-color: #19345E;
     width: 262px;
@@ -88,4 +96,122 @@ letter-spacing: -0.29px;
 /* Base/Text Primary */
 
 color: #19345E
+}
+
+.background {
+    background-color: white;
+}
+
+.th-h3 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 42px;
+line-height: 52px;
+text-align: left;
+/* or 124% */
+/* Base/Text Primary */
+
+color: #19345E;
+}
+
+.th-h3 p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 34px;
+/* identical to box height, or 142% */
+
+letter-spacing: -0.43px;
+
+/* Color/Grey/100 */
+
+color: #1A1A1A;
+}
+
+.th-h3 span {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+letter-spacing: -0.29px;
+
+/* Color/Grey/60 */
+
+color: #767676;
+}
+
+.logo-style {
+    border-radius: 50px;
+    background-color: #E7EBFC;
+}
+
+.artist-font {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 34px;
+/* identical to box height, or 142% */
+
+letter-spacing: -0.433333px;
+
+/* Base/Text Primary */
+
+color: #19345E;
+}
+
+.artist-font span {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.361111px;
+
+/* Base/Text Secondary */
+
+color: #1E1E1E;
+}
+
+.h1-bottom {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 62px;
+/* or 119% */
+
+text-align: center;
+letter-spacing: -0.94px;
+
+/* Base/Text Primary */
+
+color: #19345E;
+}
+
+.h1-bottom p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+text-align: center;
+letter-spacing: -0.32px
+}
+
+.btn-book {
+    border: none;
+    background-color: #19345E;
+    color: white;
+    width: 198px;
+    height: 56px;
 }
