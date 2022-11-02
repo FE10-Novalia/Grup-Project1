@@ -153,12 +153,3 @@ color: #19345E;
     background-color: #E7EBFC;
     border-radius: 50%;
 }
-
-.backward, .forward{
-    width: 48px;
-    height: 48px;
-    background-color: var(--color2);
-}
-.backward img, .forward img{
-    width: 40px;
-}
