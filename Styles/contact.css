@@ -6,6 +6,10 @@
     margin-left: 1rem;
 }
 
+.marginTop {
+    margin-top: 2.2rem;
+}
+
 .p-text{
     font-family: 'Inter';
 font-style: normal;
@@ -77,7 +81,6 @@ color: #19345E;
 
 .default-background {
     background-color: #E7EBFC;
-    height: 600px;
 }
 
 .text-about {
@@ -136,4 +139,26 @@ color: #19345E;
     line-height: 32px;
     letter-spacing: 0.1px;
     color: #1E1E1E;
+}
+
+@media only screen and (min-width: 992px){
+    .default-background {
+        height: 600px;
+    }
+}
+
+.circle-background {
+    width: 65px;
+    height: 65px;
+    background-color: #E7EBFC;
+    border-radius: 50%;
+}
+
+.backward, .forward{
+    width: 48px;
+    height: 48px;
+    background-color: var(--color2);
+}
+.backward img, .forward img{
+    width: 40px;
 }

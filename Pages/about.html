@@ -43,7 +43,8 @@
 
     <!-- Content HEAD -->
     <div class="container mt-5">
-        <div class="text-body">
+        <div class="text-body row">
+            <div class="col-sm-12">
             <h1>This headline is the gist of the Your whole Website That can Either Make Or Break</h1>
             <p>“E-commerce shipping Pack collects different ways to do quick shopping, pay in a second, and get all
                 those stuff you need. There are smart delivery and polite service in the scenes. Each of them is
@@ -59,6 +60,7 @@
                     <path fill-rule="evenodd"
                         d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                 </svg></p>
+            </div>
         </div>
     </div>
 
@@ -66,7 +68,7 @@
     <div class="container mt-5">
         <h1 class="text-center">Solutions that connect you to<br> your Prospects & Clients</h1>
         <div class="row mt-5">
-            <div class="col-md-4 col-sm-12 mb-3">
+            <div class="col-md-12 col-lg-4 col-sm-12 mb-3">
                 <div class="card" style="width: 18rem;">
                     <div class="card-style card-body">
                         <img src="../Assets Group Project HTML-CSS/icon_01.png" alt="icon1" width="40px"
@@ -84,7 +86,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 mb-3">
+            <div class="col-md-12 col-lg-4 col-sm-12 mb-3">
                 <div class="card" style="width: 18rem;">
                     <div class="card-style card-body">
                         <img src="../Assets Group Project HTML-CSS/icon_02.png" alt="icon1" width="40px"
@@ -103,7 +105,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 mb-3">
+            <div class="col-md-12 col-lg-4 col-sm-12 mb-3">
                 <div class="card" style="width: 18rem;">
                     <div class="card-style card-body">
                         <img src="../Assets Group Project HTML-CSS/icon_03.png" alt="icon1" width="40px"
@@ -123,7 +125,7 @@
             </div>
         </div>
         <div class="row mt-3">
-            <div class="col-md-4 col-sm-12 mb-3">
+            <div class="col-md-12 col-lg-4 col-sm-12 mb-3">
                 <div class="card" style="width: 18rem;">
                     <div class="card-style card-body">
                         <img src="../Assets Group Project HTML-CSS/icon_04.png" alt="icon4" width="40px"
@@ -137,7 +139,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 mb-3">
+            <div class="col-md-12 col-lg-4 col-sm-12 mb-3">
                 <div class="card" style="width: 18rem;">
                     <div class="card-style card-body">
                         <img src="../Assets Group Project HTML-CSS/icon_05.png" alt="icon5" width="40px"
@@ -151,7 +153,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-12 mb-3">
+            <div class="col-md-12 col-lg-4 col-sm-12 mb-3">
                 <div class="card" style="width: 18rem;">
                     <div class="card-style card-body">
                         <img src="../Assets Group Project HTML-CSS/icon_06.png" alt="icon6" width="40px"
@@ -233,23 +235,43 @@
                 </div>
 
                 <!-- Next Content -->
-                <div class="container text-center mt-5">
-                    <div class="row">
-                        <div class="col-lg-6 col-sm-12">
-                            <img src="../Assets Group Project HTML-CSS/shutterstock_796346011@2x.png" alt="shutter"
-                                width="350px" height="405px" />
-                        </div>
-                        <div class="col-lg-6 col-sm-12">
-                            <h3 class="th-h3">There are smart delivery and polite service in the scenes. Each of them is
-                                realized in cold and warm
-                                colors with sky.
-                                <div class="mt-5">
-                                    <img src="../Assets Group Project HTML-CSS/Logitech.png" alt="logitech"
-                                        width="130px" height="40px" />
-                                    <p>David Gillroy<br><span>Digital Artist at Digital Group</span></p>
+                <div class="container " >
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner px-5">
+                            <div class="carousel-item active">
+                                <div class="container mt-5 d-flex justify-content-center align-content-center">
+                                    <div class="row" style="padding: 90px">
+                                        <div class="col-lg-6 col-sm-12">
+                                            <img src="../Assets Group Project HTML-CSS/shutterstock_796346011@2x.png" alt="shutter"
+                                                width="350px" height="405px" />
+                                        </div>
+                                        <div class="col-lg-6 col-sm-12">
+                                            <h3 class="th-h3">There are smart delivery and polite service in the scenes. Each of them is
+                                                realized in cold and warm
+                                                colors with sky.
+                                                <div class="mt-5">
+                                                    <img src="../Assets Group Project HTML-CSS/Logitech.png" alt="logitech"
+                                                        width="130px" height="40px" />
+                                                    <p>David Gillroy<br><span>Digital Artist at Digital Group</span></p>
+                                                </div>
+                                            </h3>
+                                        </div>
+                                    </div>
                                 </div>
-                            </h3>
+                            </div>
                         </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <div class="forward rounded-circle position-relative">
+                                <img src="../Assets Group Project HTML-CSS/icon_arrow_backward.png" alt="Play"
+                                class="position-absolute top-50 start-50 translate-middle">
+                            </div>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <div class="forward rounded-circle position-relative">
+                                <img src="../Assets Group Project HTML-CSS/icon_arrow_forward.png" alt="Play"
+                                class="position-absolute top-50 start-50 translate-middle">
+                            </div>
+                        </a>
                     </div>
                 </div>
 
@@ -383,21 +405,22 @@
                 </div>
             </div>
         </section>
+        <div class="mt-5 p-5" style="background-color: #E7EBFC;">
+            <div class="container mt-5 text-center">
+                <h2 class="h1-bottom">The Is Closing Headline To Make A<br> Impact For Call To Action</h2>
+                <p>Nowadays, it isn’t uncommon to see lenders rapidly adopting a digital lending strategy to streamline<br> the lending process nowadays, it isn’t uncommon to see lenders rapidly</p>
+            </div>
+            <div style="text-align: center;">
+            <button type="button" class="btn-book">Book A Meeting  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
+                class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            </svg></button>
+        </div>    
+        </div>
     </main>
 
-    <div class="mt-5" style="background-color: #E7EBFC;">
-        <div class="container mt-5 text-center">
-            <h2 class="h1-bottom">The Is Closing Headline To Make A<br> Impact For Call To Action</h2>
-            <p>Nowadays, it isn’t uncommon to see lenders rapidly adopting a digital lending strategy to streamline<br> the lending process nowadays, it isn’t uncommon to see lenders rapidly</p>
-        </div>
-        <div style="text-align: center;">
-        <button type="button" class="btn-book">Book A Meeting  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor"
-            class="bi bi-arrow-right" viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-        </svg></button>
-    </div>    
-    </div>
+    
     
 
     <!-- FOOTER -->

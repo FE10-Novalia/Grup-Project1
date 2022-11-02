@@ -215,3 +215,13 @@ letter-spacing: -0.32px
     width: 198px;
     height: 56px;
 }
+
+.backward, .forward{
+    width: 48px;
+    height: 48px;
+    background-color: var(--color2);
+}
+
+.backward img, .forward img{
+    width: 40px;
+}
