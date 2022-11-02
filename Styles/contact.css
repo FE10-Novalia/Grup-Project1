@@ -1,7 +1,74 @@
+.margin-manual {
+    margin-top: 4rem;
+}
+
+.marginLeft {
+    margin-left: 1rem;
+}
+
+.p-text{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: -0.36px;
+color: #969696;
+}
+
+.office {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: -0.58px;
+color: #19345E
+}
+
+.office p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: -0.36px;
+color: #1E1E1E
+}
+
+.office span {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+color: #19345E;
+}
+
+.call-us-white {
+    width: 205px;
+    height: 74px;
+    left: 360px;
+    top: 484px;
+    background: #FFFFFF;
+    color: #19345E;
+    border: 1px solid;
+}
+
+.call-us-blue {
+    color: white;
+    width: 205px;
+    height: 74px;
+    left: 360px;
+    top: 484px;
+    background: #19345E;
+    border: 1px solid;
+}
+
 .card-about {
     background-color: white;
-    width: 487px;
-    height: 662px;
+    width: 330px;
+    height: 600px;
     margin-top: 3rem;
     border: 1px solid #B4B4B4;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
@@ -15,31 +82,31 @@
 
 .text-about {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 28px;
-line-height: 34px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
 
 
-/* Global/Primary */
+    /* Global/Primary */
 
-color: #19345E;
+    color: #19345E;
 }
 
 .text-about p {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-/* or 167% */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
 
-letter-spacing: 0.2px;
+    letter-spacing: 0.2px;
 
-/* Base/Text Alt */
+    /* Base/Text Alt */
 
-color: #969696;
+    color: #969696;
 }
 
 .btn-book {
@@ -52,21 +119,21 @@ color: #969696;
 
 .h1-text {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 64px;
-line-height: 72px;
-letter-spacing: -1.16px;
-text-transform: capitalize;
-color: #19345E;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -1.16px;
+    text-transform: capitalize;
+    color: #19345E;
 }
 
 .h1-text p {
     font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 32px;
-letter-spacing: 0.1px;
-color: #1E1E1E;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #1E1E1E;
 }
