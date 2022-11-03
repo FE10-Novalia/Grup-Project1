@@ -39,7 +39,6 @@ h1,h2,h3,h4,h5{
     top: -9%;
     border-radius: 50%;
 }
-
 .logo-3{
     background-color: var(--color2);
     width: 72px;
@@ -72,7 +71,15 @@ a{
     footer{
         height: 600px;
     }
- 
+    .gambar-sec1{
+        display: flex;
+        justify-content: center;
+        padding-top: 10%;
+    }
+    .gambar-sec1 img{
+        width: 400px;
+        height:400px;
+    }
 }
 @media only screen and (max-width: 991px){
     .proccess{
@@ -81,6 +88,7 @@ a{
         position: relative;
         padding-left: 10%;
         margin-top: 4%;
+        padding-top: 0px !important;
     }
     .proccess-4{
         border-left: none;
@@ -111,7 +119,23 @@ a{
     .headline h1{
         font-size: 42px;
     }
+
     .gambar-sec1{
         margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .kolom1 p{
+        font-size: 32px;
+    }
+ 
+}
+@media only screen and (max-width : 600px){
+    .sec6-kolom1{
+        width: 100% !important;
+    }
+    .gambar-sec1 img{
+        width: 250px;
+        height: 250px;
     }
 }

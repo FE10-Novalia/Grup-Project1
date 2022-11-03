@@ -115,14 +115,7 @@ a{
         height: 600px;
     }
     .text-sec1{
-        font-size: 38px;
-    }
-    .counter{
-        flex-direction: column;
-    }
-    .count-info{
-        border-right: none;
-        padding-top: 20px;
+        font-size: 42px;
     }
     .photo{
         width: 280px;
@@ -132,6 +125,12 @@ a{
     .text-sec5 h1{
         font-size: 30px;
         padding-right: 0px;
+    }
+    .counter{
+        flex-direction: column;
+    }
+    .count-info{
+        padding-top: 20px;
     }
     .section-ketiga .content .text h1{
         font-size: 40px;
@@ -149,6 +148,9 @@ a{
     .left-right{
         justify-content: end;
     }
+    .photo-parent{
+        padding: 0 15%;
+    }
     .photo{
         width: 350px;
     }
@@ -160,5 +162,8 @@ a{
     }
     .gbr-sec6{
         align-self: center;
+    }
+    .photo{
+        width: 250px;
     }
 }
