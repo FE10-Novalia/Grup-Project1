@@ -94,6 +94,9 @@ ul li{
     width: auto;
     height: 25px;
 }
+.sec6-kolom1{
+    width: 75%;
+}
 footer{
     width: 100vw;
     height: 450px;
@@ -165,5 +168,16 @@ a{
     }
     .photo{
         width: 250px;
+    }
+    .sec6-kolom1{
+        width: 100%;
+    }
+}
+@media only screen and (max-width : 350px){
+    .sec6-kolom1{
+        width: 100%;
+    }
+    .section-keenam .container{
+        width: 100vw !important;
     }
 }

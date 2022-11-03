@@ -44,8 +44,8 @@ h1,h2,h3,h4,h5{
     width: 72px;
     height: 72px;
 }
-li{
-    list-style: none;
+.sec6-kolom1{
+    width: 75%;
 }
 .logo-partners img{
     width: auto;
@@ -137,5 +137,14 @@ a{
     .gambar-sec1 img{
         width: 250px;
         height: 250px;
+    }
+}
+@media only screen and (max-width : 350px){
+    .sec6-kolom1{
+        width: 100%;
+    }
+    .section-keenam .container{
+        /* padding: 0px 0px !important; */
+        width: 100vw !important;
     }
 }
